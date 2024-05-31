@@ -6,7 +6,7 @@ interface BootboxBaseOptions<T = any> {
     callback?: ((result: T) => any) | undefined;
     onEscape?: (() => any) | boolean | undefined;
     show?: boolean | undefined;
-    backdrop?: boolean | undefined;
+    backdrop?: null | boolean | undefined;
     closeButton?: boolean | undefined;
     animate?: boolean | undefined;
     className?: string | undefined;
